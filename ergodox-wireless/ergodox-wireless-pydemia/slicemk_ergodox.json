@@ -379,7 +379,7 @@
 					"Behavior": "mo",
 					"Notes": "",
 					"Args": [
-						"nmpad"
+						"numbers"
 					]
 				},
 				{
@@ -512,11 +512,9 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "to",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"nmpad"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -617,7 +615,7 @@
 			]
 		},
 		{
-			"Name": "nmpad",
+			"Name": "numbers",
 			"Notes": "",
 			"Keys": [
 				{
@@ -652,25 +650,15 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "custom",
-					"Notes": "",
-					"Args": [
-						""
-					]
-				},
-				{
-					"Name": "",
 					"Behavior": "none",
 					"Notes": "",
 					"Args": []
 				},
 				{
 					"Name": "",
-					"Behavior": "kp",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"K_CALC"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -704,11 +692,15 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "kp",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"PRINTSCREEN"
-					]
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -890,11 +882,9 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "kp",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"BACKSPACE"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -938,19 +928,15 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "kp",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"C_BRIGHTNESS_DEC"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
-					"Behavior": "kp",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"C_BRIGHTNESS_INC"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -981,7 +967,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"RET"
+						"EQUAL"
 					]
 				},
 				{
@@ -1070,13 +1056,13 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "trans",
 					"Notes": "",
 					"Args": []
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "trans",
 					"Notes": "",
 					"Args": []
 				},
@@ -1094,19 +1080,15 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "kp",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"SPC"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
-					"Behavior": "kp",
+					"Behavior": "none",
 					"Notes": "",
-					"Args": [
-						"BSPC"
-					]
+					"Args": []
 				},
 				{
 					"Name": "",
@@ -1314,21 +1296,27 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_7"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_8"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_9"
+					]
 				},
 				{
 					"Name": "",
@@ -1400,21 +1388,27 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_4"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_5"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_6"
+					]
 				},
 				{
 					"Name": "",
@@ -1498,21 +1492,27 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_1"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_2"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"NUMBER_3"
+					]
 				},
 				{
 					"Name": "",
@@ -1568,107 +1568,109 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
-					"Behavior": "to",
+					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"main"
+						"NUMBER_0"
 					]
+				},
+				{
+					"Name": "",
+					"Behavior": "kp",
+					"Notes": "",
+					"Args": [
+						"DOT"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
+					"Behavior": "trans",
+					"Notes": "",
+					"Args": []
 				}
 			]
 		},
