@@ -179,7 +179,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"M_MUTE"
+						"M_VOLU"
 					]
 				},
 				{
@@ -387,7 +387,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"M_VOLU"
+						"M_VOLD"
 					]
 				},
 				{
@@ -512,16 +512,10 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"DEL"
+						"M_MUTE"
 					]
 				},
 				{
@@ -530,6 +524,14 @@
 					"Notes": "",
 					"Args": [
 						"HOME"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "kp",
+					"Notes": "",
+					"Args": [
+						"END"
 					]
 				},
 				{
@@ -569,7 +571,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"HOME"
+						"PGUP"
 					]
 				},
 				{
@@ -601,7 +603,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"END"
+						"PGDN"
 					]
 				},
 				{
