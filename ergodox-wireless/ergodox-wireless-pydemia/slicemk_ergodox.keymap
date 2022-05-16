@@ -14,9 +14,9 @@
 				&kp GRAV &kp A        &kp S        &kp D        &kp F        &kp G                                &kp H        &kp J        &kp K        &kp L        &kp SEMICOLON &kp QUOT
 				&kp LSFT &kp Z        &kp X        &kp C        &kp V        &kp B        &mo 1      &kp M_VOLD   &kp N        &kp M        &kp CMMA     &kp DOT      &kp FSLH      &kp RSFT
 				&kp LCTL &kp K_APP    &kp LGUI     &mo 2        &kp LALT                                                       &kp RALT     &kp RCTL     &kp LBKT     &kp RBKT      &kp M_MUTE
-				                                                             &kp HOME     &kp END    &kp LARW     &kp RARW
-				                                                &kp SPC      &kp BSPC     &kp PGUP   &kp UARW     &kp DEL      &kp RET
-				                                                                          &kp PGDN   &kp DARW
+				                                                             &kp PGUP     &kp PGDN   &kp LARW     &kp RARW
+				                                                &kp SPC      &kp BSPC     &kp HOME   &kp UARW     &kp DEL      &kp RET
+				                                                                          &kp END    &kp DARW
 			>;
 		};
 		layer_1 {

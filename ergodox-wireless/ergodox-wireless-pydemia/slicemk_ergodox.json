@@ -523,7 +523,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"HOME"
+						"PGUP"
 					]
 				},
 				{
@@ -531,7 +531,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"END"
+						"PGDN"
 					]
 				},
 				{
@@ -571,7 +571,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"PGUP"
+						"HOME"
 					]
 				},
 				{
@@ -603,7 +603,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"PGDN"
+						"END"
 					]
 				},
 				{
