@@ -1070,15 +1070,19 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "trans",
+					"Behavior": "custom",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"\u0026kp LA(LARW)"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "trans",
+					"Behavior": "custom",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"\u0026kp LA(RARW)"
+					]
 				},
 				{
 					"Name": "",

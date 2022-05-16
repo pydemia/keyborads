@@ -22,13 +22,13 @@
 		layer_1 {
 			bindings = <
 				&bootloader
-				&none &none &none &none &none    &none    &none  &none  &none        &none        &none        &none     &none        &none
-				&none &none &none &none &kp LPRN &kp RPRN &none  &none  &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp MINUS &kp SLASH    &none
-				&none &none &none &none &kp LBKT &kp RBKT               &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp PLUS  &kp ASTERISK &none
-				&none &none &none &none &kp LBRC &kp RBRC &none  &none  &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp EQUAL &kp UARW     &none
-				&none &none &none &none &none                                        &kp NUMBER_0 &kp DOT      &kp LARW  &kp DARW     &kp RARW
-				                                 &trans   &trans &trans &trans
-				                        &none    &none    &trans &trans &kp DEL      &kp RET
+				&none &none &none &none &none    &none    &none  &none        &none        &none        &none        &none     &none        &none
+				&none &none &none &none &kp LPRN &kp RPRN &none  &none        &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp MINUS &kp SLASH    &none
+				&none &none &none &none &kp LBKT &kp RBKT                     &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp PLUS  &kp ASTERISK &none
+				&none &none &none &none &kp LBRC &kp RBRC &none  &none        &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp EQUAL &kp UARW     &none
+				&none &none &none &none &none                                              &kp NUMBER_0 &kp DOT      &kp LARW  &kp DARW     &kp RARW
+				                                 &trans   &trans &kp LA(LARW) &kp LA(RARW)
+				                        &none    &none    &trans &trans       &kp DEL      &kp RET
 				                                          &trans &trans
 			>;
 		};
